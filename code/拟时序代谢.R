@@ -3,7 +3,6 @@ library(dplyr)
 library(monocle)
 library(ggplot2)
 library(Seurat)
-setwd("D:/KS项目/公众号文章/拟时基因趋势_通路趋势")
 
 #===============================================================================
 #                           基因随拟时表达变化

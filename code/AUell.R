@@ -1,8 +1,7 @@
-setwd('D:/KS项目/公众号文章/Ucell单细胞评分')
+
 library(Seurat)
 BiocManager::install("UCell")
 library(UCell)
-uterus <- readRDS("D:/KS项目/公众号文章/uterus.rds")
 DimPlot(uterus,label = T)+NoLegend()
 
 #UCell评分函数AddModuleScore_UCell可以提供方seurat对象

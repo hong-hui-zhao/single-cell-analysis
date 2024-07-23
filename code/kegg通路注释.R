@@ -1,5 +1,4 @@
 
-# setwd('D:/KS项目/公众号文章/KEGG通路注释')
 library(dplyr)
 library(ggplot2)
 library(forcats)

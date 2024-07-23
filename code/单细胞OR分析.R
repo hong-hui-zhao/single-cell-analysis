@@ -11,7 +11,6 @@ library("ggplot2")
 library("dplyr")
 library("tidyr")
 
-setwd("D:/KS项目/公众号文章/张泽明code学习")
 #加载函数及数据
 mouse_data <- readRDS("./mouse_data.rds")
 source("./test_function.R")
